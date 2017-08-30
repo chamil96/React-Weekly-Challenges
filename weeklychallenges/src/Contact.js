@@ -35,7 +35,7 @@ class Contact extends Component {
       <p className="sentence">You need to contact {firstName} {lastName} at {phoneNumber}<i className="fa-p fa fa-square" style={{color:iconColor}} /></p>
       <button type="button" onClick={this.handleClick}>Call</button>
       </div>
-    );
+    ); 
   }
 
 }
