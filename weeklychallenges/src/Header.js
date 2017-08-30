@@ -1,3 +1,5 @@
+// EASY:  Pass a prop for "name" into the component you just created so the h1 tag reads, "Hello world, {name}" Please refer to App.js to see where name is plugged in
+
 import React, { Component } from 'react';
 
 /*
