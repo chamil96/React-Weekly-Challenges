@@ -33,4 +33,4 @@ function ContactList(){
     <ul className="contact-sentence">{contactArray}</ul>
   )
 }
-export default ContactList;
+export default ContactList; 
