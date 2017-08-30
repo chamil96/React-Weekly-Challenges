@@ -19,6 +19,7 @@ class Contact extends Component {
 
   render() {
 
+// VERY HARD: In your list of Contacts, have a status icon by each one that starts as orange "Pending" status. Then have a call button that when clicked, changes the state to a green "Done" status.
     const { firstName, lastName, phoneNumber } = this.props;
     const { isCallMade } = this.state;
     let iconColor = "orange";
@@ -27,6 +28,7 @@ class Contact extends Component {
     }
     // check isCallMade value and set value of background color var accordingly
     // use color var for icon color
+    // MEDIUM: Create a child Contact component inside the original component you created that you pass in a firstName, lastName, and phoneNumber and print out "You need to contact {firstName} {lastName} at {phoneNumber}
 
     return (
       <div>
@@ -37,6 +39,5 @@ class Contact extends Component {
   }
 
 }
-// VERY HARD: In your list of Contacts, have a status icon by each one that starts as orange "Pending" status. Then have a call button that when clicked, changes the state to a green "Done" status.
 
 export default Contact;
