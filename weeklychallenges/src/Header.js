@@ -2,8 +2,9 @@
 
 import React, { Component } from 'react';
 
+// VERY EASY: Create a React class component that renders "hello world" in an h1 tag. You don't need props for this one.
 /*
-function Header(props){
+function Header(){
   return (
     <h1>Hello world!</h1>
   )
