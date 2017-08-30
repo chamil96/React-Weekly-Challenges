@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 /*
 function Header(props){
   return (
-    <h1>Hello world, {props.name}</h1>
+    <h1>Hello world!</h1>
   )
 }
 */
